@@ -1,0 +1,1117 @@
+ls
+cd .config/
+ls
+cd hypr
+ls
+vim
+nvim
+cd ../nvim
+vim
+ls
+vim
+nvim
+cd ../../
+vim .bashrc 
+ls
+nvim .bashrc 
+source .bashrc 
+ls
+cd Projects/
+ls
+go
+mise install go
+mise use -g go
+go
+ls
+yay zen
+yay zen-browser
+rust
+mise install rust
+mise use -g rust
+yay zen-browser
+ls
+ll
+ls
+ls -a
+ls
+cd .config
+ls
+cd omarchy/
+ls
+vim shell.json 
+ls
+cd .config/omarchy/
+ls
+vim shell.toml 
+cd ../foot/
+ls
+vim foot.ini 
+ls
+vim
+ls
+go get github.com/gofiber/fiber/v3
+clear
+go run cmd/api/api.go 
+clear
+go run cmd/api/api.go 
+go get -u gorm.io/grom
+go get -u gorm.io/gorm
+go get -u gorm.io/driver/sqlite
+go run cmd/api/api.go 
+yay bruno
+mise install bun
+mise use -g bun
+clear
+bubn
+bun
+cd Projects/
+ls
+mkdir bun
+ls
+cd bun/
+l
+sls
+ls
+bun create convex@latest
+cd linkey/
+ls
+vim
+journalctl 
+cd ../../
+mkdir supa
+cd supa/
+git clone --depth 1 --branch self-hosted/v0.8.1 https://github.com/supabase/supabase
+mkdir supabase-project
+cd supabase-project/
+cd ..
+cp -rf supabase/docker/. supabase-project/
+cd supabase-project/
+ls
+mv .env.example .env
+ls
+printf 'ref=self-hosted/v0.8.1\n' > .supabase-version
+docker compose pull
+sudo usermod -aG docker alexander
+docker compose pull
+rails g scaffold notes title body:text
+clear
+rails db:migrate
+./bin/dev
+cd Projects/supa/supabase-project/
+ls
+docker compose pull
+sudo systemctl start docker.service 
+docker compose pull
+sudo systemctl status docker.service 
+docker compose pull
+docker compose pull --help
+docker --help
+docker
+docker compose
+docker compose pull
+sudo docker compose pull
+ls
+sh utils/generate-keys.sh 
+sh utils/add-new-auth-keys.sh 
+sh run.sh secrets
+vim .env
+sh run.sh start
+sudo sh run.sh start
+ls
+cat .env | grep DASHBOARD_USERNAME
+docker compose down
+sudodocker compose down
+sudo docker compose down
+cd
+mise install ruby
+mise use -g ruby
+gem install rails --no-document
+ls
+cd Projects/
+mkdir ruby
+ls
+cd ruby/
+ls
+rails new random -T --css=tailwind
+rails new withme -T --css=tailwind
+cd withme/
+ls
+vim
+ls
+cd ../..
+ls
+cd go/linkey/
+ls
+vim
+ls
+cd
+ls
+omarchy 
+omarchy restart 
+omarchy restart  shell
+omarchy shell rescanPlugins
+omarchy-shell
+omarchy-shell shell rescanPlugins
+omarchy-shell shell listPlugins
+omarchy-shell shell listPlugins | grep alexander
+clear
+qs log -p "$OMARCHY_PATH/shell" --tail 100
+hyprctl dispatch renameworkspace 2 con
+hyprctl dispatch renameworkspace 2 "con"
+hyprctl dispatch renameworkspace, 2, "con"
+hyprctl dispatch renameworkspace, 2, \"con\"
+hyprctl dispatch \"renameworkspace\", 2, \"con\"
+hyprctl disable hl.dsp.workspace.rename(2, "con")
+hyprctl disable hl.dsp.workspace.rename 2 "con
+hyprctl disable hl.dsp.workspace.rename 2 "con"
+hyprctl disable hl.dsp.workspaces.rename 2 "con"
+omarchy plugin validate ~/.config/omarchy/plugins/alexander.workspaces/
+omarchy-shell shell rescanPlugins
+omarchy plugin enable alexander.workspaces
+omarchy restart shell 
+k
+omarchy restart shell 
+journalctl --user -u omarchy-shell -f
+systemctl --user list-units | grep -i omarchy
+systemctl --user list-units | grep -i quickshell
+grep -i quickshell ~/.config/hypr/*lua 2>/dev/null
+ls /usr/share/omarchy
+ls /usr/share/omarchy/config/
+ls /usr/share/omarchy/default/hypr/
+grep -i quickshell /usr/share/omarchy/default/hypr/*.lua 2>/dev/null
+grep -i quickshell /usr/share/omarchy/default/hypr/*.lua 
+omarchy-shell
+omarchy-shell shell ping
+omarchy-shell -q alexander.workspaces refresh
+omarchy restart shell 
+clear
+ps aux | grep -i quickshell
+systemctl --user list-units --all | grep -i -E "quickshell|omarchy|shell"
+
+ps aux | grep -i quickshell
+kill 180139
+quickshell -p /usr/share/omarchy/shell
+omarchy plugin disable alexander.workspaces
+clear
+PLUGIN_ID="alexander.workspaces"
+omarch plugin list
+omarchy plugin list
+omarchy-shell shell summon "$PLUGIN_ID" '{}'
+omarchy-shell shell summon "alexander.workspaces" '{}'
+cd
+cd .config/hypr/
+ls
+vim
+omarchy restart shell 
+ls ~/.local/state/omarchy/
+cd ~/.local/state/omarchy/
+ls
+cat monitor-scaling.log 
+cat first-run.log 
+ls indicators/
+cd ..
+ls
+cd ..
+ls
+ls share/
+cd /var/log
+ls
+cat omarchy-install.log 
+yay zellij
+ls
+zellij 
+ls
+cd .config/
+ls
+cd hypr
+ls
+vim monitors.lua 
+cd
+cd /usr/share/omarchy
+ls
+cd shell/
+ls
+ls Ui/
+cd Ui/
+ls
+vim BarWidget.qml 
+ls
+vim BarIndicator.qml 
+cd
+cd .config/omarchy/
+ls
+cd themes
+ls
+cd ../themed
+ls
+cd ..
+ls
+cd defaults/
+ls
+cd ..
+ls
+vim shell.toml 
+vim shell.json 
+cd
+cd /usr/share/omarchy
+ls
+ls config/
+ls themes/
+ls themes/nord/
+ls
+ls shell/
+ls shell/Commons/
+ls shell/plugins/
+ls shell/services/
+ls
+ls applications/
+ls
+ls bin/
+omarchy 
+omarchy bar
+cd shell/
+ls
+cd Ui
+ls
+ls qmldir 
+vim BarWidget.qml 
+cd
+cd .config/hypr
+vim
+cd 
+cd Projects/
+ls
+mkdir omarchy
+cd omarchy/
+ls
+omarchy plugin clone omarchy.workspaces --edit
+ls
+cd
+cd .config/omarchy/plugins/
+ls
+rm -rf alexander.workspaces/
+ls
+cd ..
+ls
+cd ../hypr
+ls
+vim autostart.lua 
+git clone --depth 1 https://github.com/doomemacs/core ~/.config/emacs
+cd .config/emacs/
+ls
+cd ..
+cp emacs/ emacs.omarchy
+mv emacs/ emacs.omarchy
+ls
+git clone --depth 1 https://github.com/doomemacs/core ~/.config/emacs
+vim ~/.bashrc
+source ~/.bashrc 
+doom install
+ls
+cd doom/
+ls
+vim init.el 
+doom sync
+yay Ubuntu
+yay GeistMono
+ya geist
+yay geist
+yay nerd font
+yay geist nerd
+yay alegreya
+mise install postgres
+mise use -g postgres
+pg_start
+pg_ctl start
+cd
+cd .config/foot/
+ls
+vim foot.ini 
+yay lazysql
+lazysql
+yay aspell
+aspell
+aspell hello
+aspell -c hello
+echo "Hello, wrld!" > hello.txt
+aspell -c hello.txt 
+ls
+cat hello.txt
+yay languagetool
+ls
+cd .org
+ls
+mkdir .org
+ls
+cd .org/
+mkdir roam
+ls
+cd
+doom sync
+emacs --debug-init
+doom sync
+emacs --debug-init
+doom sync
+emacs --debug-init
+doom sync
+emacs --debug-init
+cd .config/doom/
+ls
+ls -a
+cd ../emacs
+ls
+cd .local/
+ls
+cd straight/
+ls
+cd build-31.1/
+ls
+cd catppuccin-theme/
+ls
+vim catppuccin-theme-autoloads.el 
+cd
+cd .config/doom/
+vim config.org 
+doom sync
+killall emacs
+cd ../
+cd emacs
+cd .local/straight/
+ls
+cd build-31.1/
+ls
+rm -rf catppuccin-theme/
+doom sync
+ls
+rm -rf nord-theme/
+ls catppuccin-theme/
+rm -rf catppuccin-theme/
+
+doom sync
+ls
+cd ca
+ls
+ls -a
+cd ..
+ls
+doom
+doom upgrade
+doom run
+doom doctor
+mise install zig
+muse use -g zig
+muse use zig
+mise
+mise use
+ls
+rm mise.toml 
+mise use -g zig
+doom doctor
+yay Symbola
+doom doctor
+cd catppuccin-theme/
+ls
+git clone https://github.com/catppuccin/emacs.git
+ls
+rm -rf emacs/
+git clone https://github.com/catppuccin/emacs.git .
+ls
+ls scripts/
+ls assets/
+doom install
+ls
+cd ..
+ls
+rm -rf catppuccin-theme/
+ls
+cd ..
+ls
+cd repos/
+ls
+cd emacs
+ls
+cd ../
+cd themes/
+ls
+ls themes/
+cd ..
+ls
+cd ..
+ls
+ls -a
+vim build-31.1-cache.el 
+ls
+cd ..
+ls
+ls etc/
+ls etc/init.d/
+ls etc/@/
+ls -a
+ls -a state/
+ls -a state/logs/
+doom sync
+cd
+cd .config/doom/
+vim config.org
+doom sync
+vim packages.el 
+doom sync
+vim config.org 
+doom sync
+emacs --debug-init
+cd ..
+mv emacs emacs.old
+git clone --depth 1 https://github.com/doomemacs/core ~/.config/emacs
+doom install
+cd
+cd Projects/
+ls
+cd bun/
+ls
+cd ../
+ls
+mkdir svelte
+cd svelte/
+ls
+bun sv create dutchy
+bunx sv create dutchy
+cd dutchy/
+git init
+ls
+postgres 
+postgres -u postgres -W
+
+psql -U postgres -W
+yay pgadmin
+yay beekeeper
+bun run dev
+bun add better-auth
+clear
+bun add @drop-in/graffiti
+bun run dev
+bunx auth@latest generate
+bunx auth@latest generate --help
+clear
+bunx auth@latest generate --help
+bunx auth@latest generate
+bun run db:push
+bun run db:studio
+ls
+cd .config/fo
+vim foot.ini 
+fastfetch 
+cd .config/ghostty/
+ls
+vim config 
+ls
+cd Projects/svelte/
+rm -rf dutchy/
+git config --global set 
+git config --global set --help
+git config --help
+git config set --help
+git config --global get init.defaultBranch
+git config get --global  init.defaultBranch
+git config set --global  init.defaultBranch main
+git config get --global  init.defaultBranch
+git config get --global  user.name 
+ls
+bunx sv create dutchy
+cd dutchy/
+vim .env
+cd
+cd .config/hypr
+ls
+vim hyprland.lua 
+cd
+ls
+cd Projects/
+ls
+rm -rf omarchy/
+rm -rf supa/
+ls
+lazydocker 
+cd svelte/dutchy/
+ls
+zeditor .
+bun run dev
+bunx auth generate
+bun add @better-auth/passkey
+bunx auth generate
+bunx auth@latest generate
+clear
+bunx auth@latest generate
+bun run db:generate
+bun run dev
+bun x shadcn-svelte init --preset b1gvLV4Shu
+chmod +x ./shad 
+./shad signup-03
+bun add valibot
+bun db:studio
+bun
+bun run
+bun run db:migrate
+bun run db:studio
+ls
+bun x shadcn-svelte@latest add sidebar-08
+./shad sidebar
+bun x shadcn-svelte init --preset b1gu8UQXas
+cd Projects/go/linkey/
+ls
+zeditor 
+zeditor .
+go install github.com/a-h/templ/cmd/templ@latest
+go get github.com/a-h/templ
+go install github.com/axadrn/shadcn-templ/v2/cmd/shadcn-templ@latest
+shadcn-templ init -t templ --preset bKZTOaPo
+shadcn-templ apply --preset bKZTOaPo
+shadcn-templ init
+shadcn-templ apply --preset bKZTOaPo
+go install github.com/go-task/task/v3/cmd/task@latest
+task dev:run
+task dev
+go get github.com/joho/godotenv
+go mod tidy
+go run cmd/server/main.go 
+task dev
+journalctl --user -u omarchy-shell -f
+task dev
+go run cmd/server/main.go 
+task dev
+cd ../.
+ls
+cd old-linkey/
+ls
+zeditor 
+zeditor  .
+go install github.com/axadrn/goilerplate/v3/cmd/goilerplate@latest
+goilerplate login
+cd Projects/
+cd go
+ls
+mv linkey/ old-linkey
+ls
+goilerplate new --name Linkey --module linkey --edition free --framework htmx ./linkey
+mkdir linkey
+goilerplate new --name Linkey --module linkey --edition free --framework htmx ./linkey
+cd linkey/
+ls
+go mod init linkey
+cd ..
+goilerplate new --name Linkey --module linkey --edition free --framework htmx ./linkey
+rm -rf linkey
+goilerplate new --name Linkey --module dcappps.nl/linkey --edition free --framework htmx ./linkey
+ls
+cd linkey/
+ls
+zeditor 
+zeditor .
+yay mailhog
+mailhog 
+mix ecto.create
+clear
+mix phx.server
+task dev
+go get -tool github.com/a-h/templ/cmd/templ@latest
+task dev
+clear
+cd Projects/
+mkdir elixir
+ls
+cd elixir/
+mise install erlang
+mise install elixer
+mise install elixir
+mise use -g erlang
+mise install elixir
+mise use elixir
+mix arch
+mix archive.install hex phx_new
+mix phx.new linkey
+cd linkey/
+vim
+cd ..
+mix phx.new aircln
+cd aircln/
+l
+mix ecto.create
+ls
+zeditor .
+cd ../..
+ls
+cd go/
+ls
+cd old-linkey/
+zeditor 
+zeditor .
+killall gopls_0.23.0_go_1.27.1 
+ls
+reboot
+cd Projects/go/old-linkey/
+code .
+zeditor .
+cd ../linkey/
+vim
+shadcn-templ add signup-03
+templ generate
+go mod tidy
+cd assets/js/
+wget https://cdn.jsdelivr.net/npm/htmx.org@4.0.0
+ls
+mv htmx.org@4.0.0 htmx.min.js
+cd ../img/
+cp ~/Projects/go/linkey/assets/img/* .
+cd ../
+mkdir fonts
+cd fonts/
+cp ~/Projects/go/linkey/assets/fonts/* .
+cp -r ~/Projects/go/linkey/assets/fonts/* .
+ls
+go install github.com/a-h/templ/cmd/templ@latest
+templ lsp
+cd ../..
+ls
+templ lsp
+killall gopls templ
+templ lsp
+templ lsp .
+templ --help
+templ ifno
+templ info
+go install golang.org/x/tools/gopls@latest
+templ info
+task run
+task dev
+pg_ctl start
+cd Projects/svelte/dutchy/
+ls
+zeditor 
+zeditor .
+mise install php
+yay minecraft
+./shad spinner
+bun run dev
+./shad  navigation-menu
+./shad sheet
+./shad dialog
+./shad sonner
+bun db:migrate
+bun db:push
+./shad data-table
+./shad datatable
+./shad table
+ls
+cd Projects/svelte/dutchy/
+zeditor 
+bun add @tanstack/svelte-table
+bun run dev
+pg_ctl start
+pg_ctl --help
+pg_ctl status
+pg_ctl init
+pg_ctl init[dutchy]
+mise use -g postgres
+pg_ctl start
+mise 
+mise ls
+ls
+docker
+ls
+cd Projects/svelte/dutchy/
+ls
+vim docker-compose.yml
+ls
+docker-compose up
+bun db:create
+bun db:
+bun run
+bun run db:push
+clear
+docker co
+docker compose 
+docker compose up
+ls /var/lib/postgresql
+docker compose
+docker compose attach database 
+docker compose stop
+docker compose down
+docker compose start
+docker compose up
+ls
+docker compose attach database 
+docker compose up
+vim docker-compose.yml 
+docker compose down
+docker compose up
+docker compose up -d
+docker compose attach database 
+lazydocker
+ls
+vim docker-compose.yml 
+lazydocker
+bun db:push
+bun run
+bun run db:migrate
+bun run db:generate
+bun run db:migrate
+bun run
+bun run db:push
+clear
+./shad switch
+./shad checkbox
+bun db:studio
+bun dev
+zellij 
+clear
+cd /usr/share/omarchy
+ls
+cd themes/
+ls
+cd catppuccin
+ls
+vim colors.toml 
+ls backgrounds/
+ls
+cd ../../../
+ls
+cd ..
+ls
+cd
+cd .local/
+ls
+cd share/
+ls
+which zellij 
+cd ..
+ls
+cd state/
+ls
+cd ../../
+ls
+cd /sys/
+ls
+cd ..
+cd srv/
+ls
+cd ..
+ls
+lse etc/
+ls
+cd etc/
+ls
+cd
+cd .ssh
+mkdir .ssh
+cd .ssh/
+cp ~/Downloads/id_ed25519* .
+ls
+go get -u github.com/spf13/cobra@latest
+go run prj.go 
+go run prj.go  --help
+go run prj.go 
+go run prj.go version
+go run prj.go help
+go run prj.go completion
+go run prj.go completion bash
+go run prj.go help
+go run prj.go hello
+go run prj.go 
+go run prj.go help
+go run prj.go help generate
+go run prj.go help g
+go run prj.go g
+go run prj.go g bassie
+go run prj.go g help
+go run prj.go help g
+go run prj.go g help --type svelte
+go run prj.go g help
+go run prj.go g
+go run prj.go g help
+go get charm.land/huh/v2
+go run prj.go g hello
+clear
+go run prj.go g hello
+ls ~/.zellij/project/hello.kdl 
+rm ~/.zellij/project/hello.kdl 
+go run prj.go g hello
+ls ~/.zellij/project/
+go run prj.go g hello
+ls ~/.zellij/project/
+rm ~/.zellij/project/hello.kdl 
+ls ~/.zellij/project/
+rm ~/.zellij/project/layout.kdl 
+go run prj.go g hello
+ls ~/.zellij/project/
+cat ~/.zellij/project/hello.kdl 
+cat ~/.zellij/project/layout.kdl 
+go run prj.go g hello
+clear
+go run zprj.go g world
+ls
+go run zprj.go g world
+go mod tidy
+tailwindcss -i assets/css/globals.css -o assets/css/output.css
+mise use -g ruby@4.0.6
+tailwindcss -i assets/css/globals.css -o assets/css/output.css
+cd assets/bin/
+wget https://github.com/tailwindlabs/tailwindcss/releases/download/v4.3.3/tailwindcss-linux-x64
+ls
+mv tailwindcss-linux-x64 tailwindcss
+ls
+chmod +x tailwindcss 
+ls
+cd ../..
+ls
+./assets/bin/tailwindcss -i assets/css/globals.css -o assets/css/output.css 
+cd assets/
+rm -rf fonts
+ls
+cp -r ~/Projects/go/old-linkey/assets/fonts/ .
+ls
+cp -r ~/Projects/go/old-linkey/assets/img/ .
+ls
+ls img/
+cp -r ~/Projects/go/old-linkey/assets/js/ .
+ls
+go mod tidy
+cd ..
+ls
+cp -r ../old-linkey/internal/logger/ internal/
+ls
+go mod tidy
+go get -tool github.com/a-h/templ/cmd/templ@latest
+task dev
+go mod tidy
+cd Projects/svelte/dutchy/
+ls
+zeditor .
+cd 
+cd .config/zellij/
+ls
+vim
+cd ../omarchy/
+ls
+cd themes
+ls
+vim
+mkdir dcmocha
+cd dcmocha/
+touch colors.toml
+vim colors.toml 
+cd 
+cd .config/zellij/
+ls
+vim config.kdl
+cd
+cd Projects/go/
+ls
+cd
+cd .ssh/
+ls
+chmod 600 id_ed25519
+ls
+chmod 600 id_ed25519.pub 
+ls
+cd
+ls
+cd Projects/go/
+git clone git@github.com:mrdejong/zellij_project.git
+ls
+cd zellij_project/
+ls
+vim
+lazygit
+vim
+ls
+vim
+go build prj.go 
+ls
+mv prj zprj
+mv prj.go zprj.go
+go  build z
+go  build zprj.go 
+go install zprj.go 
+ls
+cd
+zprj 
+ls
+cd Projects/go/zellij_project/
+vim
+zprj 
+ls
+cd
+cd Projects/svelte/dutchy/
+lazydocker 
+cd 
+cd Projects/go/
+ls
+cd old-linkey/
+ls
+cd ..
+ls
+mkdir dutchy
+ls
+cd dutchy/
+ls
+go mod init dutchy
+ls
+cp -r ../old-linkey/pkgs/ .
+ls
+vim
+cd
+bun run dev
+clear
+bunx --bun shadcn@latest apply --preset b3lWofwOm
+bunx --bun shadcn@latest init --preset b3lWofwOm --template start --pointer
+clear
+cd 
+cd /usr/share/omarchy
+ls
+cd default/
+ls
+cd hypr/
+ls
+vim bindings/
+ls
+bunx
+bunx run
+bun run
+ls
+convex
+bunx convex
+bunx convex dash
+cd
+cd .zellij/project/
+ls
+cp dutchy.kdl dcapps.kdl
+vim dcapps.kdl 
+zprj help
+zprj g
+zprj g dolphin
+ls
+vim dolphin.kdl 
+./pt 
+ls
+cd ../../pocketbase/dolphin/
+ls
+chmod +x pocketbase 
+./pocketbase serve
+mkdir .zellij
+cd .zellij/
+ls
+mkdir project
+cd project/
+vim hello.kdl
+ls
+pwd
+ls
+touch hello.dl
+mv hello.dl hello.kdl 
+ls
+mv hello.dl hello.kdl 
+mv hello.kdl hello.kd
+mv hello.kd hello.kdl
+zellij list-sessions -s
+ls
+rm *.kdl
+ls
+cat hello.kdl 
+rm hello.kdl 
+cat hello.kdl 
+ls
+rm hello.kdl 
+fcd
+cd 
+cd Projects/svelte/
+ls
+cd dutchy/
+ls
+lazydocker
+cd
+cd .zellij/project/
+ls
+cp world.kdl dutchy.kdl
+vim dutchy.kdl 
+rm world.kdl 
+cd 
+cd Projects/go/old-linkey/
+ls
+vim 
+ls
+cd ..
+ls
+cd linkey/
+ls
+vim
+cd
+cd 
+cd Projects/
+ls
+mkdir tanstack
+cd tanstack/
+ls
+ls bun
+ls ../bin
+ls ../bun
+ls ../bun/linkey/
+bunx create convex@latest
+bun create convex@latest
+cd dcapps/
+ls
+cd ../
+git clone https://github.com/get-convex/convex-tutorial.git
+cd convex-tutorial/
+bun i
+ls
+bun run dev
+vim
+cd ..
+ls
+cd dcapps/
+vim package.json 
+ls
+zprj 
+ls
+cd ..
+cd 
+cd .config/
+ls
+cd hypr
+ls
+vim  bindings.lua 
+ls
+cd ../../Projects/svelte/
+git clone git@github.com:mrdejong/dolphin.git
+ls
+cd ../
+mkdir pocketbase
+cd pocketbase/
+ls
+cp -r ~/Downloads/dolphin_pocketbase/ .
+ls
+mv dolphin_pocketbase/ dolphin
+ls
+cd dolphin/
+ls
+ls pb_migrations/
+cd
+zprj 
+cd Projects/svelte/dolphin/
+ls
+bun i
+zprj
+clear
+./install.sh 
+Gjf
+./install.sh 
+mkdir ~/.config/myworld
+./install.sh 
+ls ~/.config
+mv ~/.config/myworld.backup ~/.config/myworld
+clear
+./install.sh 
+ls
+ls ~
+ls -a ~
+man test
+./install.sh 
