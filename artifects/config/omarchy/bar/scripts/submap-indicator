@@ -2,5 +2,6 @@
 case "$(hyprctl submap)" in
 "" | default) echo "" ;;
 group_management) echo "󰕰 GROUP" ;;
+resize) echo "󰩨 RESIZE (escape to exit)" ;;
 *) hyprctl submap ;;
 esac

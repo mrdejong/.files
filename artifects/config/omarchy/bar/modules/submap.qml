@@ -11,6 +11,11 @@ Item {
 
     property string submap: ""
 
+    readonly property var labels: ({
+        "group_management": "󰕰 GROUP",
+        "resize": "󰩨 RESIZE"
+    })
+
     visible: submap !== ""
     implicitWidth: visible ? label.implicitWidth + 16 : 0
     implicitHeight: bar ? bar.barSize : 26
@@ -34,7 +39,7 @@ Item {
     Text {
         id: label
         anchors.centerIn: parent
-        text: root.submap === "group_management" ? "󰕰 GROUP" : root.submap
+        text: root.labels[root.submap] ?? root.submap
         color: root.bar ? root.bar.background : "black"
         font.family: root.bar ? root.bar.fontFamily : "monospace"
     }
