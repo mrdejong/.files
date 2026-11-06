@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+case "$(hyprctl submap)" in
+"" | default) echo "" ;;
+group_management) echo "󰕰 GROUP" ;;
+*) hyprctl submap ;;
+esac

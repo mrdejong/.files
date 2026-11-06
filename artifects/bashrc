@@ -9,6 +9,7 @@
 source "$OMARCHY_PATH/default/bash/rc"
 
 export PATH="$PATH:~/.config/emacs/bin"
+export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
 
 # Add your own exports, aliases, and functions here.
 #
@@ -17,3 +18,5 @@ export PATH="$PATH:~/.config/emacs/bin"
 alias vim='nvim'
 alias vi='nvim'
 alias v='nvim'
+
+. "$HOME/.local/share/../bin/env"

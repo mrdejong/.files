@@ -1,0 +1,556 @@
+cd
+cd .config
+ls
+cd hypr
+ls
+git init
+git add .
+git commit -m "Hello world"
+git remote add origin git@github.com:mrdejong/hyprconfig.git
+git push origin main
+ls
+cd
+mkdir .files
+ls
+cd .files/
+ls
+touch install.sh
+ls
+chmod +x install.sh 
+vim install.sh 
+ls
+cd artifects/
+ls
+cp ~/.bash* .
+ls
+ls -a
+mkdir hello
+cd hello/
+ls
+touch .hello
+ls
+ls -a
+mv .* *
+ls
+mv * .hello
+mv .* $1
+mv --help
+for f in .[!.]*; do mv -n -- "$f" "${f#.}"; done
+ls
+mv hello .hello
+rename 's/^\.//' .[!.]*
+rename --help
+man rename
+rename 's/^\.//' .[!.]* .*
+ls
+ls -'a
+ls -a
+rename 's/^\.//' .[!.]* .hello
+ls
+cd ..
+rm -rf hello/
+ls
+for f in .[!.]*; do mv -n -- "$f" "${f#.}"; done
+ls
+cd config/
+ls
+cp ~/.config/nvim .
+cp -r ~/.config/nvim .
+
+cp -a ~/.config/{hypr,omarchy} .
+ls
+ls omarchy/
+ls omarchy/themed
+cd omarchy/theme
+cd ../themed
+ls
+vim omarchy-colors.el.tpl 
+ls
+cd ..
+ls
+ls defaults/
+ls branding/
+ls extensions/
+ls hooks/
+ls
+cd ..
+ls
+ls omarchy/
+ls omarchy/ -a
+ls 
+cd ../.files/
+ls
+cat install.sh 
+vim install.sh 
+./install.sh 
+vim install.sh 
+./install.sh 
+ls ~/.config
+vim install.sh 
+./install.sh 
+cd 
+cd .config/
+ls
+rm hypr.backup.1790260590/
+unlink hypr.backup.1790260590/
+rm -rf hypr.backup.1790260590/
+ls ~/.files/artifects/config/
+ls ~/.files/artifects/config/hypr/
+ls
+unlink hypr.backup.1790260590/
+unlink hypr.backup.1790260590
+ls 
+cp hypr.backup.1790260528/ ~/.files/artifects/config/
+cp -r hypr.backup.1790260528/ ~/.files/artifects/config/
+cd 
+cd .files/
+ls
+cd artifects/
+ls
+cd config/
+ls
+rm -rf hypr
+mv hypr.backup.1790260528/ hypr
+sl
+ls
+cd 
+cd .config/
+ls
+unlink hypr
+~/.files/install.sh 
+ls
+unlink nvim.backup.1790260590
+unlink omarchy.backup.1790260590
+ls
+ls zellij/
+ls ze
+ls zen
+ls
+vim user-dirs.dirs 
+cp user-dirs.dirs ~/.files/artifects/config/
+
+cp -a zellij/ ~/.files/artifects/config/
+ls
+ls git
+ls
+cp -a doom ~/.files/artifects/config/
+ls
+~/.files/install.sh 
+cd
+cd .files
+git
+ls -a
+git init
+git checkout -b working
+ls
+grep -rniE 'token|secret|api_key|password' .
+git add .
+cd artifects/config/hypr/
+ls
+rm -rf .git
+cd ../..
+..
+ls
+git add .
+git commit -m "Initial commit for real files"
+git remote add git@github.com:mrdejong/.files.git
+git remote add origin git@github.com:mrdejong/.files.git
+git push origin working 
+git status
+git checkout main
+git checkout -b main
+ls
+ls -a
+git status
+git push -u origin main
+ls
+git status
+ls
+cd artifects/
+vim
+ls
+cp -a ~/.config/nvim.backup.1790260528/ config/nvim-new
+cd config/
+ls
+ls nvim-new/plugin/
+ls nvim-new/lua/
+ls nvim-new/lua/plugins/
+vim
+ls
+vim
+ls nvim-new/lua/plugins/
+cd nvim-new/lua/plugins/
+ln -sfn "$HOME/.local/state/omarchy/current/theme/neovim.lua" "$HOME/.config/nvim/lua/plugins/neovim.lua"
+ls
+ln -sfn "$HOME/.local/state/omarchy/current/theme/neovim.lua" "$HOME/.files/artifects/config/nvim/lua/plugins/neovim.lua"
+ls
+
+ls
+ln -sfn "$HOME/.local/state/omarchy/current/theme/neovim.lua" "$HOME/.files/artifects/config/nvim/lua/plugins/theme.lua"
+ls
+ln -sf "$HOME/.local/state/omarchy/current/theme/neovim.lua" "$HOME/.files/artifects/config/nvim/lua/plugins/theme.lua"
+ls
+ln -s "$HOME/.local/state/omarchy/current/theme/neovim.lua" "$HOME/.files/artifects/config/nvim/lua/plugins/theme.lua"
+ls
+ls -a
+ll
+pwd
+cd ../../../nvim/lua/
+ls
+cd plugins/
+ls
+rm neovim.lua 
+vim
+cd
+ls
+sl
+ls
+cd Projects/
+ls
+cd svelte/
+ls
+cd dolphin/
+ls
+vim
+zprj 
+ls
+git clone https://github.com/joshuaswarren/omarchy-apple-dev
+cd omarchy-apple-dev/
+ls
+omarchy-install-dev-env ios
+XCODE_XIP=~/Downloads/Xcode_27.2.xip ./install-toolchain.sh 
+xtool auth
+curl -fsSL https://tomacco.dev/install.sh | bash
+tomaccoctl setup
+tomacco
+python3 tools/ios_virtual_profile.py --check
+ls
+ls tools/
+ls ~
+ls ~/.local/
+ls ~/.local/share/
+ls ~/.local/share/tomacco/
+ls ~/.local/lib/tomacco/
+cd ~/.local/lib/tomacco/tools/
+ls
+cd ..
+python3 tools/ios_virtual_profile.py --check
+ipsw download ipsw --device iPhone17,3 --build 24A446 --urls
+cd
+mkdir phone
+cd phone/
+mkdir downloads
+ipsw downloads ipsw --device iPhone17,3 --build 24A446 --output ~/phone/downloads/
+ipsw download ipsw --device iPhone17,3 --build 24A446 --output ~/phone/downloads/
+git clone https://github.com/Lakr233/vphone-cli ~/phone/vphone-cli
+git -C ~/phone/vphone-cli checkout 3a819b0dd00aea8906ddd8d33c9364736a869ca0
+git -C ~/phone/vphone-cli grep -n 'static let cloud264' -- VPhoneKit/VPhoneCoreKit/Firmware/VPhoneFirmwareCatalog.swift
+PCC_URL='https://updates.cdn-apple.com/private-cloud-compute/c0ecdb4b310cf5239ab2b248dd3098eec297dc5aa3bbe6ada27273262b0b8b64'
+curl --fail --location --continue-at - "$PCC_URL" --output ~/phone/downloads/PCC_26.4_23E5207q_Restore.ipsw
+ls
+ls downloads/
+unzip -n ~/phone/downloads/iPhone17,3_27.0.1_24A446_Restore.ipsw -d ~/phone/iphone-ipsw
+unzip -n ~/phone/downloads/PCC_26.4_23E5207q_Restore.ipsw -d ~/phone/pcc
+python3 - <<'PY'
+import hashlib
+from pathlib import Path
+
+expected = {
+    "/home/alexander/phone/iphone-ipsw/BuildManifest.plist": "1d3df8a49cf134cbf3b9f46c67be5cfc000c6bc2fda014846784fa0a8993b461",
+    "/home/alexander/phone/pcc/BuildManifest.plist": "96b65481173fb8dbb87ba4a770cbf9ca26512ea3222ea38ca9e23532db29ccc4",
+}
+for filename, digest in expected.items():
+    if hashlib.sha256(Path(filename).read_bytes()).hexdigest() != digest:
+        raise SystemExit(f"Unexpected manifest: {filename}")
+    print(f"Recorded manifest matched: {filename}")
+PY
+
+mkdir -p ~/phone/iphone-ipsw/decrypted ~/phone/pcc/decrypted
+ipsw fw aea ~/phone/iphone-ipsw/043-69462-662.dmg.aea --output ~/phone/iphone-ipsw/decrypted
+ipsw fw aea ~/phone/iphone-ipsw/043-70113-711.dmg.aea --output ~/phone/iphone-ipsw/decrypted
+ipsw fw aea ~/phone/pcc/094-39278-029.dmg.aea --output ~/phone/pcc/decrypted/
+curl --fail --location 'https://raw.githubusercontent.com/TrungNguyen1909/qemu-t8030-tools/7a2017461ee7c1864330083dc6a781b75d1d0279/bootstrap_scripts/ticket.shsh2' --output /phone/ticket.shsh2
+curl --fail --location 'https://raw.githubusercontent.com/TrungNguyen1909/qemu-t8030-tools/7a2017461ee7c1864330083dc6a781b75d1d0279/bootstrap_scripts/ticket.shsh2' --output ~/phone/ticket.shsh2
+ls
+cd 
+cd .local/lib/tomacco/
+cd tools/
+python3 tools/prepare_ios_research_manifest.py   --template ~/phone/ticket.shsh2   --pcc-firmware ~/phone/pcc   --iphone-firmware ~/phone/iphone-ipsw   --device-tree ~/phone/dtree.restore   --output ~/phone/your.im4m
+cd ..
+python3 tools/prepare_ios_research_manifest.py   --template ~/phone/ticket.shsh2   --pcc-firmware ~/phone/pcc   --iphone-firmware ~/phone/iphone-ipsw   --device-tree ~/phone/dtree.restore   --output ~/phone/your.im4m
+python3 tools/build_ios_paravirt.py --jobs 8 --cpu-optimization native
+python3 tools/prepare_ios_research_manifest.py   --template /phone/ticket.shsh2   --pcc-firmware /phone/pcc   --iphone-firmware /phone/iphone-ipsw   --device-tree /phone/dtree.restore   --output /phone/your.im4m
+cd .local/lib/tomacco/
+python3 tools/prepare_ios_research_manifest.py   --template /phone/ticket.shsh2   --pcc-firmware /phone/pcc   --iphone-firmware /phone/iphone-ipsw   --device-tree /phone/dtree.restore   --output /phone/your.im4m
+python3 tools/prepare_ios_research_manifest.py   --template /phone/ticket.shsh2   --pcc-firmware /phone/pcc   --iphone-firmware /phone/iphone-ipsw   --device-tree ~/phone/dtree.restore   --output ~/phone/your.im4m
+python3 tools/prepare_ios_research_manifest.py   --template ~/phone/ticket.shsh2   --pcc-firmware ~/phone/pcc   --iphone-firmware ~/phone/iphone-ipsw   --device-tree ~/phone/dtree.restore   --output ~/phone/your.im4m
+python3 tools/build_ios_paravirt.py --jobs 8 --cpu-optimization native
+yay ninja
+python3 tools/build_ios_paravirt.py --jobs 8 --cpu-optimization native
+python3 tools/build_ios_guest_control.py --output .tooling/ios-guest-control
+python3 tools/prepare_ios_emulator.py --firmware ~/phone/iphone-ipsw --output ~/phone/restore-shell
+python3 tools/build_ios_linker.py --swift-lib /absolute/swift/usr/lib/swift --jobs 8
+python3 tools/build_ios_linker.py --swift-lib /usr/lib/swift --jobs 8
+tomaccoctl call ios.emulator.build_gpu_plugin '{"source":"/home/alexander/phone/vphone-cli","output":"/home/alexander/phone/gpu-compiler","linker":"/home/alexander/.local/lib/tomacco/.tooling/ios-linker/prefix/bin/aarch64-apple-darwin-ld","ldid":"/home/alexander/.local/lib/tomacco/.tooling/ios-sptm/support/ldid/ldid"}'
+ls .tooling/
+ls .tooling/ios-linker/
+ls .tooling/ios-linker/cctools-source/
+ls .tooling/ios-linker/tapi-source/
+ls .tooling/ios-linker/tapi-source/tools/
+ls .tooling/ios-linker/cctools-source/
+ls .tooling/ios-linker/cctools-source/tools/
+ls .tooling/ios-linker/cctools-source/cctools/
+ls
+tomaccoctl call ios.emulator.build_gpu_plugin '{"source":"/home/alexander/phone/vphone-cli","output":"/home/alexander/phone/gpu-compiler","linker":"/home/alexander/.local/lib/tomacco/.tooling/ios-linker/prefix/bin/aarch64-apple-darwin-ld","ldid":"/home/alexander/.local/lib/tomacco/.tooling/ios-sptm/support/ldid/ldid"}'
+python3 tools/build_ios_linker.py --swift-lib /usr/lib/swift --jobs 8
+exit
+ls
+ls -a
+cd .config
+ls
+cd hypr
+ls
+vim autostart.lua 
+vim tomacco.lua 
+vim xdph.conf 
+ls
+cd ..
+ls
+vim .ba
+ls
+cd 
+vim .bashrc
+ls -a
+cat .bash_profile.backup.1790260528 
+cat .bashrc.backup.1790260528 
+cd Projects/
+ls
+cd svelte/dolphin/
+ls -a
+lazygit
+a
+/usr/lib/swift/
+cd
+cd .config/systemd/
+ls
+cd user
+ls
+vim ssh-agent.service
+systemctl --user daemon-reload
+ls
+systemctl --user enable ssh-agent.service 
+cd
+vim .bashrc
+source .bashrc
+vim .ssh/config
+bun install
+cd Projects/svelte/dutchy/
+ls
+ls -a
+cd ../../
+ls
+cd bun/
+ls
+ls linkey/
+ls linkey/ -a
+cd ..
+ls
+ls go/dutchy/
+ls -a go/dutchy/
+ls -a go/linkey/
+cd go/linkey/
+ls
+git status
+git remote get-url origin
+cd ../../
+ls
+ls pocketbase/dolphin/
+ls
+ls -a pocketbase/dolphin/
+ls -a pocketbase/dolphin/pb_hooks/
+ls -a tanstack/
+ls -a tanstack/dcapps/
+ls
+ls -a ruby/withme/
+cd ruby/withme/
+ls
+git remote get-url origin
+cd ../../
+ls
+cd svelte/dolphin/
+ls
+lazygit
+systemctl --user start ssh-agent.service 
+systemctl --user status ssh-agent.service 
+pacman -Ql openssh | grep .service
+cat /usr/lib/systemd/user/ssh-agent.service 
+git pull
+yay thruhu
+yay truhu
+ssh 192.168.178.54
+ip addr
+ip addr enp4s0
+ssh 192.168.178.83
+sl
+vim
+ivm
+vim
+ls
+ll
+uv
+pipx install graphifyy
+mise
+curl -LsSf https://astral.sh/uv/install.sh | sh
+vim ~/.bashrc
+source ~/.bashrc
+uv tool install
+uv tool install graphifyy
+clear
+graphify install
+ls
+claude
+ls
+ls graphify-out/
+cd graphify-out/
+ls
+xdg-open graph.html 
+npm run dev
+ls
+vim
+cd Projects/
+ls
+mkdir tanstackstart
+cd tanstack
+ls
+rm -rf convex-tutorial/
+ls
+npx @tanstack/cli@latest create
+ls
+cd 
+sudo pacman -S usbmuxd libimobiledevice
+xtool setup
+swift sdk list
+cd Projects/
+mkdir iOS
+cd iOS/
+xtool new Hello
+ls
+cd Hello/
+ls
+sudo pacman -S qemu-img
+ios.vertual.setup
+tamaccoctl ios.vertual.setup
+tomaccoctl ios.vertual.setup
+tomaccoctl setup ios.vertual.setup
+tomaccoctl setup --yes
+{   "project": "",;   "runtime": {},;   "cli": "/home/alexander/.local/lib/tomacco/tomaccoctl",;   "mcp": {;     "command": "/home/alexander/.local/lib/tomacco/tomaccoctl",;     "args": [;       "mcp";     ];   }
+}
+tomaccoctl --help
+tomaccoctl verify
+tomaccoctl doctor
+cd ..
+ls
+mkdir setup
+tomaccoctl setup
+cd
+cd .local/lib/tomacco/
+ls
+ls examples/
+ls examples/ios-restore-native/
+cd examples/ios-restore-native/
+ls
+vim
+cd ../..
+ls
+cd tools/
+ls
+python3 ios_virtual_doctor.py 
+cd ../..
+ls
+cd 
+cd Projects/tanstack
+ls
+npx @tanstack/cli@latest create
+cd hello/
+ls
+zellij 
+ls
+cd Projects/
+ls
+cd tanstack
+ls
+cd hello/
+ls
+zeditor .
+cd
+cd Projects/
+cd elixir/
+ls
+git clone https://github.com/ChristianAlexander/food_captain.git
+cd food_captain/
+lazydocker 
+docker compose up -d 
+ls
+lazydocker 
+cd assets/
+npm i
+npm run dev
+code .
+zeditor .
+cd ..
+zeditor .
+git checkout starter
+ls
+cd assets/
+npm i
+npm run dev
+yay watchman
+mix deps.get
+clear
+mix setup
+iex -S mix phx.server
+cargo run -- toasty migration generate
+clear
+cargo run -- toasty migration apply
+topcoat dev
+ls
+cd Projects/
+cd go/
+ls
+ls dutchy/
+cd
+cd .files/
+ls
+vim
+vim
+o.bind(keys(a, "G"), "Edit a group management submap", hl.dsp.submap("group_management"))
+hl.define_submap("group_management", function()
+	map(keys("g"), hl.dsp.group.toggle(), "Toggle window group")
+	map(keys("h"), hl.dsp.window.move({ into_group = "l" }), "Move window into a group on the left")
+	map(keys("j"), hl.dsp.window.move({ into_group = "d" }), "Move window into a group on the bottom")
+	map(keys("k"), hl.dsp.window.move({ into_group = "u" }), "Move window into a group on the top")
+	map(keys("l"), hl.dsp.window.move({ into_group = "r" }), "Move window into a group on the right")
+	map(keys("e"), hl.dsp.window.move({ out_of_group = true }), "Move window out of group")
+	map(keys("n"), hl.dsp.group.next(), "Next window in group")
+	map(keys("p"), hl.dsp.group.prev(), "Previous window in group")
+	map(keys("f"), hl.dsp.group.move_window(), "Move window forward in the group order")
+	map(keys("b"), hl.dsp.group.move_window({ forward = false }), "Move window backward in the group order")
+	map("t", hl.dsp.group.lock_active(), "Toggle group lock")
+	o.bind(keys("escape"), "Quit submap", hl.dsp.submap("reset"))
+end)
+tail -f "$XDG_RUNTIME_DIR"/hypr/*/hyprland.log
+cd
+cd .local/bin/
+ls
+vim submap-indicator
+chmod +x submap-indicator 
+omarchy bar set   --section=center   --id=local.submap   --type=command   --command="$HOME/.local/bin/submap-indicator"   --settings='{"interval": 250}'
+ls
+mv submap-indicator submap-indicator
+omarchy bar set   --section=center   --id=local.submap   --type=command   --command="$HOME/.local/bin/submap-indicator"   --settings='{"interval": 250}'
+mkdir -p ~/.config/omarchy/bar/scripts
+cd
+cd .config/omarchy/bar/scripts/
+mv ~/.local/bin/submap-indicator .
+ls
+vim submap-indicator 
